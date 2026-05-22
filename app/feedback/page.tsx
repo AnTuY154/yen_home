@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Feedback",
-  description: "Gửi feedback và xem cảm nhận khách hàng về Ban Công Homestay.",
+  description: "Gửi feedback và xem cảm nhận khách hàng về Yên HomeStay.",
 };
 
 async function sendFeedback() {

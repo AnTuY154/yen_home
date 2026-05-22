@@ -6,7 +6,7 @@ import site from "@/data/site.json";
 
 export const metadata: Metadata = {
   title: "Câu chuyện",
-  description: "Giới thiệu Ban Công Homestay, concept ban công và thông tin liên hệ.",
+  description: "Giới thiệu Yên HomeStay, concept ban công và thông tin liên hệ.",
 };
 
 export default function AboutPage() {
@@ -24,7 +24,7 @@ export default function AboutPage() {
             </div>
             <div className="space-y-6 text-lg leading-9 text-ink/65">
               <p>
-                Ban Công Homestay được tạo ra từ mong muốn có một nơi đủ gần thành phố để tiện di chuyển, nhưng đủ
+                Yên HomeStay được tạo ra từ mong muốn có một nơi đủ gần thành phố để tiện di chuyển, nhưng đủ
                 yên để khách có thể tạm gác công việc, mở cửa sổ và hít một hơi thật sâu.
               </p>
               <p>

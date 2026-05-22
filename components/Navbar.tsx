@@ -4,10 +4,10 @@ import site from "@/data/site.json";
 export default function Navbar() {
   return (
     <header className="fixed left-0 right-0 top-0 z-50 px-4 py-4 md:px-8">
-      <div className="glass mx-auto flex max-w-7xl items-center justify-between rounded-full px-4 py-3 shadow-lg shadow-wood/10">
-        <Link href="/" className="flex items-center gap-3 font-black">
+      <div className="glass relative mx-auto flex max-w-7xl items-center justify-between rounded-full px-4 py-3 shadow-lg shadow-wood/10">
+        <Link href="/" className="flex items-center gap-5 font-black">
           <span className="grid h-10 w-10 place-items-center rounded-full bg-wood text-white">B</span>
-          <span className="hidden sm:block">{site.name}</span>
+          <span>{site.name}</span>
         </Link>
         <nav className="hidden items-center gap-7 text-sm font-bold text-ink/70 md:flex">
           <Link href="/#rooms">Phòng</Link>

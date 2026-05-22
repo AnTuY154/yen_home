@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import BookingCTA from "@/components/BookingCTA";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import RoomGallery from "@/components/RoomGallery";
 import RoomCard from "@/components/RoomCard";
 import rooms from "@/data/rooms.json";
 
@@ -21,7 +21,7 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!room) return { title: "Phòng" };
 
   return {
-    title: `${room.name} | Ban Công Homestay`,
+    title: `${room.name} | Yên HomeStay`,
     description: room.description,
   };
 }
@@ -38,13 +38,7 @@ export default function RoomDetail({ params }: Props) {
       <main className="pt-28">
         <section className="section-pad">
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-            <div className="grid gap-4">
-              {room.images.map((src, index) => (
-                <div key={src} className={index === 0 ? "relative aspect-[4/3] overflow-hidden rounded-[36px]" : "relative hidden aspect-[16/9] overflow-hidden rounded-[28px] md:block"}>
-                  <Image src={src} alt={`${room.name} ảnh ${index + 1}`} fill priority={index === 0} className="object-cover" />
-                </div>
-              ))}
-            </div>
+            <RoomGallery images={room.images.length ? room.images : [room.thumbnail]} roomName={room.name} />
             <div className="animate-fadeUp">
               <Link href="/#rooms" className="font-black text-leaf">← Về danh sách phòng</Link>
               <h1 className="mt-5 font-serif text-6xl leading-none md:text-7xl">{room.name}</h1>

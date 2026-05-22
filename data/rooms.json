@@ -5,7 +5,7 @@
     "slug": "phong-go-am",
     "price": 450000,
     "thumbnail": "/images/room1.svg",
-    "images": ["/images/room1.svg", "/images/default.svg"],
+    "images": ["/images/room1.svg", "/images/default.svg", "/images/room2.svg", "/images/room3.svg"],
     "description": "Không gian ấm áp với tone gỗ, phù hợp nghỉ ngơi thư giãn sau một ngày dài.",
     "features": ["1 giường lớn", "wifi", "ánh sáng tự nhiên", "máy lạnh", "phòng tắm riêng"]
   },
@@ -15,7 +15,7 @@
     "slug": "phong-nang-ban-cong",
     "price": 550000,
     "thumbnail": "/images/room2.svg",
-    "images": ["/images/room2.svg", "/images/room1.svg"],
+    "images": ["/images/room2.svg", "/images/room1.svg", "/images/default.svg", "/images/room3.svg"],
     "description": "View phố cổ, ban công đón nắng cực chill cho những buổi sáng uống cà phê thật chậm.",
     "features": ["ban công", "view phố", "cửa sổ lớn", "bàn trà", "rèm cản sáng"]
   },
@@ -25,7 +25,7 @@
     "slug": "phong-toi-gian",
     "price": 400000,
     "thumbnail": "/images/room3.svg",
-    "images": ["/images/room3.svg", "/images/default.svg"],
+    "images": ["/images/room3.svg", "/images/default.svg", "/images/room1.svg", "/images/room2.svg"],
     "description": "Phong cách tối giản, yên tĩnh, riêng tư, hợp với khách cần một góc nghỉ nhẹ nhàng.",
     "features": ["yên tĩnh", "tone trung tính", "bàn làm việc", "wifi", "đèn đọc sách"]
   },
@@ -35,7 +35,7 @@
     "slug": "phong-tieu-chuan",
     "price": 300000,
     "thumbnail": "/images/default.svg",
-    "images": ["/images/default.svg"],
+    "images": ["/images/default.svg", "/images/room1.svg", "/images/room2.svg", "/images/room3.svg"],
     "description": "Phòng cơ bản với đầy đủ tiện nghi, phù hợp khách đi ngắn ngày hoặc cần ngân sách gọn.",
     "features": ["giá hợp lý", "wifi", "máy lạnh", "nước nóng"]
   }

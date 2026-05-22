@@ -4,13 +4,13 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://ban-cong-homestay.vercel.app"),
   title: {
-    default: "Ban Công Homestay | Có một nơi để bạn tạm dừng",
-    template: "%s | Ban Công Homestay",
+    default: "Yên HomeStay | Có một nơi để bạn tạm dừng",
+    template: "%s | Yên HomeStay",
   },
   description:
-    "Ban Công Homestay có 4 phòng nghỉ chill, nhiều ánh sáng tự nhiên, CTA đặt phòng rõ ràng và dữ liệu local dễ mở rộng.",
+    "Yên HomeStay có 4 phòng nghỉ chill, nhiều ánh sáng tự nhiên, CTA đặt phòng rõ ràng và dữ liệu local dễ mở rộng.",
   openGraph: {
-    title: "Ban Công Homestay",
+    title: "Yên HomeStay",
     description: "Chậm lại, nghỉ ngơi và tận hưởng trong một homestay ban công ấm áp.",
     images: ["/images/default.svg"],
   },
